@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4d343333a9b30e049c6238588a09de5",
+    "content-hash": "1fe2e362d3f29f107033395cf7b1924f",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1907,6 +1907,62 @@
                 }
             ],
             "time": "2020-12-10T11:35:44+00:00"
+        },
+        {
+            "name": "lindelius/php-jwt",
+            "version": "0.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lindelius/php-jwt.git",
+                "reference": "b84342d1e05e0df99958350c4054a19591ae5e7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lindelius/php-jwt/zipball/b84342d1e05e0df99958350c4054a19591ae5e7c",
+                "reference": "b84342d1e05e0df99958350c4054a19591ae5e7c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.2||^8.0"
+            },
+            "require-dev": {
+                "ext-openssl": "*",
+                "phpbench/phpbench": "^0.17",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lindelius\\JWT\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Lindelius",
+                    "homepage": "https://lindelius.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convenience library for working with JSON Web Tokens (JWT) in PHP",
+            "homepage": "https://github.com/lindelius/php-jwt",
+            "keywords": [
+                "JSON Web Token",
+                "auth",
+                "jwt"
+            ],
+            "support": {
+                "issues": "https://github.com/lindelius/php-jwt/issues",
+                "source": "https://github.com/lindelius/php-jwt/tree/0.9.1"
+            },
+            "time": "2021-02-07T16:44:02+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -5852,5 +5908,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

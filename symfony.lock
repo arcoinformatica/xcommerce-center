@@ -120,6 +120,9 @@
     "league/oauth2-server": {
         "version": "8.2.4"
     },
+    "lindelius/php-jwt": {
+        "version": "0.9.1"
+    },
     "nikic/php-parser": {
         "version": "v4.10.4"
     },
