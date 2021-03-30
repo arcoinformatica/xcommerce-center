@@ -15,6 +15,10 @@ security:
             security: true
             stateless: true
             oauth2: true
+
+        api_verify:
+            pattern: ^/api/verify$
+            security: false
         # dev:
         #     pattern: ^/(_(profiler|wdt)|css|images|js)/
         #     security: false
