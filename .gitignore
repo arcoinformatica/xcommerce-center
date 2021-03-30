@@ -11,4 +11,5 @@
 /.history/
 
 ### Others
+.tool-version
 .idea/
